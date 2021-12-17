@@ -1,0 +1,432 @@
+.counts {
+    background: #f1f7fd;
+    padding: 80px 0 60px;
+    height:700px
+  }
+.counts .listwrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10em;
+}
+
+.counts .count-box {
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    max-width: 300px;
+    min-width: 250px;
+    margin: 2em;
+    border-radius: .5em;
+    padding: 1em;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 0.3s;
+    border-radius: 20px 20px 20px 20px;
+
+}
+.count-box .offPercantage {
+	color: #f76707;
+	border: #f76707 solid 1px;
+	padding: 0px 0px 0px 0px;
+	border-radius: 2px 2px 20px 2px;
+	width: 80px;
+	margin: 0px;
+}
+.test-discount-container {
+	padding: 0px 0px 0px 20px;
+	font-weight: bold;
+	padding-right: 0px;
+}
+
+
+
+.testName{
+    margin-top: 29px;
+    font-weight: bold;
+    margin-left: -50px;
+}
+.test-sub-heading{
+  overflow: hidden;
+	text-overflow:ellipsis;
+	height: 80px;
+	display: block;
+  font-size: smaller;
+  margin-left: -80px;
+    
+}
+
+.count-box .knowMore {
+	color: #4299e1;
+	border: #4299e1 solid 1px;
+	padding: 1px 15px 1px 1px;
+	width: 60%;
+	border-radius: 100px;
+	/* margin-left: 30px; */
+}
+  .count-box .Testprice{
+    color:  #4299e1;
+    /* padding: 20px; */
+    font-size: x-large;
+  }
+  .counts .count-box span {
+    font-size: 36px;
+    display: block;
+    font-weight: 600;
+    color:  #4299e1;
+    margin-left: -60px;
+}
+
+.counts .image-box {
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  max-width: 300px;
+  min-width: 250px;
+  margin: 2em;
+  border-radius: .5em;
+  padding: 1em;
+  transition: all ease-in-out 0.3s;
+  border-radius: 20px 20px 20px 20px;
+
+}
+.counts .image-box .image-disc{
+  padding-top: 5px;
+  padding-left: 8px;
+  font-weight: bold;
+}
+.testimonials{
+  background-color:  #f1f7fd;
+}
+
+.testimonials .risk-item .risk-disc{
+  padding-top: 5px;
+  padding-left: 150px;
+  font-weight: bold;
+  color: #4299e1;
+  font-size: larger;
+}
+.testimonials .risk-item .risk-image{
+  
+  padding-left: 130px;
+  max-width: 50%;
+  max-height:50%;
+  
+}
+.testimonials .risk-item .detail{
+  
+  font-weight: bold;
+  align-self: center;
+  
+}
+
+
+
+.consulatncyCta{
+ 
+  min-width:100%;
+  min-height: 70vh;
+  display: flex;
+  background-color: #f8f9fa;
+  justify-content: flex-start;
+  margin: 4em 0;
+}
+
+.consultancyFirst{
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px 10px 10px 130px;
+}
+.consultancyFirst .card{
+  height: 100px;
+  width: 60%;
+}
+.consultancyFirst h1{
+  color:#FAE000;
+  font-size: 6vh;
+  font-weight: 700;
+}
+
+.promotionHeading .HeadingSpan {
+  color: rgb(100, 92, 92);    
+}
+
+.consultancyFirst p{
+  font-size: 1.8vh;
+  font-weight: 600;
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+  color: #000;
+}
+
+.consultancyFirst .ButtonCTA{
+  min-width: 100%;
+}
+
+.consultancyFirst #ConsultButton{
+  background-color: #fae000;
+  color: #000;
+  font-size: 20px;
+  padding: 10px 50px;
+  border-radius: 50px;
+  margin: 5px 20px 5px 0;
+}
+
+.consultancyFirst #LearnButton{
+  background-color: #ffffff;
+  color: #000;
+  font-size: 20px;
+  padding: 10px 35px;
+  border-radius: 50px;
+  margin: 5px 20px 5px 0;
+
+}
+
+
+.consultancySecond{
+  max-width: 50%;
+  margin: 0  auto;
+  max-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+
+}
+.consultancySecond img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+
+@media screen and (min-device-width: 220px) and (max-device-width: 1000px) { 
+  .consulatncyCta{
+    flex-direction: column-reverse;
+    margin: 10px 0;
+  }
+  .consultancyFirst{
+    max-width: 100%;
+    max-height: 100%;  
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  .consultancyFirst h1{
+    padding: 0;
+    font-size: 35px;
+    font-weight: bolder;
+    color: #FAE000;
+    letter-spacing: 1.5;
+    padding: 10px;
+    text-shadow: 0px 8px 30px rgb(0 0 0 / 10%);;
+  }
+  .promotionHeading .HeadingSpan {
+    color: #000;    
+  }
+  
+  .consultancyFirst p{
+    padding: 0;
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: 0px 8px 30px rgb(0 0 0 / 25%);
+    padding: 25px;
+  }
+  .consultancyFirst .ButtonCTA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .consultancyFirst #ConsultButton{
+    background-color: #fae000;
+    color: #000;
+    font-size: 20px;
+    padding: 10px 50px;
+    border-radius: 50px;
+    margin: 5px  0;
+  }
+  
+  .consultancyFirst #LearnButton{
+    background-color: #ffffff;
+    color: #000;
+    font-size: 20px;
+    padding: 10px 35px;
+    border-radius: 50px;
+    margin: 5px  0;
+  }
+  
+  .consultancySecond{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+}
+
+@media screen and (min-device-width: 600px) and (max-device-width: 1000px) { 
+  
+  .consultancySecond{
+    max-width: 60%;
+    max-height: 60%;
+    margin: 0 auto;
+  }
+}
+
+
+
+.DownloadAppCTA{
+  /* background-color: #f05353; */
+  min-width: 100%;
+  padding: 1em 0;
+  display: flex;
+  justify-content:  flex-start;
+  align-items: center;
+}
+
+.playstore{
+  margin: 0 2em 0 0;
+}
+
+
+@media screen and (min-device-width: 220px) and (max-device-width: 1000px) { 
+  
+  .DownloadAppCTA{
+    /* background-color: #f05353; */
+    min-width: 50%;
+    padding: .5em;
+    justify-content:  center;
+    flex-direction: column;
+  }
+  
+  .playstore{
+    margin: 2em 0;
+  }
+  
+}
+@media screen and (min-device-width: 700px) and (max-device-width: 1000px) { 
+  .DownloadAppCTA{
+    flex-direction: row;
+    justify-content: center;
+  }
+  .playstore{
+    margin: 0 2em 0 0;
+  }
+}
+  .counts .discount{
+    color: #f76707;
+    border: #f76707 solid 1px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 2px 2px 20px 2px;
+    
+    margin: 0px;
+    padding:10px;
+  }
+  .testName-para{
+    margin-top: 29px;
+    font-weight: bold;
+    
+}
+.card-footer{
+  color: #4299e1;
+	border: #4299e1 solid 1px;
+  border-radius: 20px 20px 20px 20px;
+}
+.counts .test-card{
+  background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    max-width: 300px;
+    min-width: 250px;
+    margin: 2em;
+    border-radius: .5em;
+    padding: 1em;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 0.3s;
+    border-radius: 20px 20px 20px 20px;
+
+}
+.card-container{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+   
+    
+  }
+  .card-container .t-card .card-header{
+    background-color: #fae310;
+    text-align: left;
+    border-radius: 10px 10px 2px 2px;
+    padding: 12px;
+  
+  }
+  .card-container .t-card .box{
+    background-color: white;
+    border: solid  black 1px;
+    border-radius: 20px 20px 20px 20px;
+    font-size: larger;
+    padding: 8px ;
+    color: white;
+  
+  }
+  .card-container .t-card .card-header .price{
+    margin-top: -20px;
+    float: right;
+    font-size: medium;
+  
+  }
+  .card-container .t-card .card-header .o-price{
+    margin-top: -20px;
+    float: right;
+    font-size: large;
+    color: #12d0ff;
+  
+  }
+  .card-container .row{
+   text-align: center;
+  }
+  .card-container .card-body{
+    margin-top: 40px;
+    font-size: larger;
+  }
+  .card-container .t-card{
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 90%;
+    margin-left: 100px;
+    height: 500px;
+    border-radius: 10px 20px 20px 20px;
+  }
+  .card-container .row .card{
+    margin-top: 100px; 
+    width: 90%;
+    background-color: #f3e889;
+    margin-left: 100px;
+    height: 70px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+  
+  }
+  .card-container .row .para-card{
+    margin-top: 50px;
+    width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 100px;
+  
+  }
