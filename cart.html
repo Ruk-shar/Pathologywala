@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Pathhologywala</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.png" rel="icon" />
+  <link href="assets/img/logo.png" rel="apple-touch-icon" />
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/Customize.css" rel="stylesheet">
+
+
+  <style>
+    .collapsible {
+      background-color: #777;
+      color: white;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+    }
+    
+    .active, .collapsible:hover {
+      background-color: white;
+    }
+    
+    .card-body {
+      padding: 0 18px;
+      display: none;
+      overflow: hidden;
+      background-color: white;
+    }
+    .content{
+      padding: 0 18px;
+      display: none;
+      overflow: hidden;
+      background-color: white;
+    }
+    </style>
+
+  <!-- =======================================================
+  * Template Name: Medilab - v4.7.0
+  * Template URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <div class="logo me-auto"><a href="index.html"><img src="assets/img/logo.png" alt="My Happy SVG" /></a></div>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="lab_list.html">Lab Test</a></li>
+          <li><a class="nav-link scrollto" href="#">Consultancy</a></li>
+          <li><a class="nav-link scrollto" href="#">Blog</a></li>
+          <li><a class="nav-link scrollto" href="#">About</a></li>
+          <li><a class="nav-link scrollto" href="#">ITC</a></li>
+          <li><a class="nav-link scrollto" href="#">Contact Us</a></li>
+         <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>-->
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <a href="#appointment" class="appointment-btn scrollto">Login</a>
+      <a href="#appointment" class="appointment-btn scrollto"><span class="d-none d-md-inline">Logout</a>
+      <a href="#appointment" class="appointment-btn scrollto"><i class="fa fa-shopping-cart"></i></a>
+
+    </div>
+  </header><!-- End Header -->
+
+
+  <section id="cart" class="cart">
+    <div class="container">
+      <div class="section-title">
+        <h2><Cite>Cart</Cite></h2>
+     </div>
+     <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-12 col-sm-12 ">
+            <div class="row">
+              <div class="col">
+                <div style="background-color:#fae000;font-size: 30px;"class="card-header">
+                  login
+                </div>
+                <div class="card-body" style="padding-top: 20px;">
+                    <input type="text" class="form-control" name="email" placeholder="Enter Email "><br>
+                    <button  class="btn btn-primary"type="submit">Continue</button>
+                </div>
+              </div>
+            </div>
+            <div class="row">  
+                <div class="col">
+                    <div class="mem-card">
+                        <div class="card-header">
+                            ADD MEMBER
+                        </div>
+                        <div class="card-body">
+                            <form id="mem-form"  method="post">
+                            <label class="top">NAME</label>
+                            <input type="text" name="member_name" class="form-control" placeholder="enter name">
+                            <label class="top">AGE</label>
+                            <input type="number" name="member_age" class="form-control" placeholder="enter age"><br />
+                            <button class="btn btn-primary"type="submit">ADD</button>
+                        </form>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                  <div class="mem-card">
+                    <div class="card-header">
+                        Add sample collection address,date & time
+                    </div>
+                    <div class="card-body">
+                        <form id="test-form"  method="post">
+                        <label class="top">Address</label>
+                        <input type="text" name="address" class="form-control" placeholder="enter address">
+                        <label class="top">Date & Time</label>
+                        <input type="datetime" name="datetime" class="form-control" placeholder="enter date">
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card-pay">
+                        Payment Option
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12  ">
+            <div class="row">
+              <div class="col">
+                <div class="card-test">
+                  <div>TEST DETAILS</div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="test-card">
+                <div class="row">
+                  <div class="col-8">
+                    <span class="test-name">Thyroid Test</span>
+                  </div>
+                  <div class="col-4">
+                    <span class="disc">SAVES:31%</span> 
+                  </div>
+                </div>
+                 
+              
+              <!--  <span class="test-name">Thyroid Test</span>
+                  <span class="disc">SAVES:31%</span> <br />-->
+                  <small class="small">Includes:3</small>
+                    <div>
+                        <div class="row" style="align-items: center;margin-top:5%">
+                            <div class="col-4">
+                              <span class="text-muted" style="text-decoration: line-through;font-size: 1rem;float:left;font-weight:bold">₹ 540</span>
+                            </div>
+                            <div class="col-4">
+                              <span class="Testprice" style="color:  #4299e1;">
+                              ₹ 340
+                              </span>
+                            </div>
+                            <div class="col-4">
+                                <a class="trash" href="#"> <i class="fa fa-trash"></i></a>
+                                
+                                </span>
+                            </div>
+                          </div>
+                    </div>
+                  
+                </div>
+        
+              </div>
+              
+            </div>
+            <div class="row">
+                <div class="col">
+                  <div class="test-card">
+                   
+                    <div class="row">
+                      <div class="col-8">
+                        <span class="test-name">Thyroid Test </span>
+                      </div>
+                      <div class="col-4">
+                        <span class="disc">SAVES:31%</span> 
+                      </div>
+                    </div>
+                    <small class="small">Includes:3</small>
+                      <div>
+                          <div class="row" style="align-items: center;margin-top:5%">
+                              <div class="col-4">
+                                <span class="text-muted" style="text-decoration: line-through;font-size: 1rem;float:left;font-weight:bold">₹ 540</span>
+                              </div>
+                              <div class="col-4">
+                                <span class="Testprice" style="color:  #4299e1;">
+                                ₹ 340
+                                </span>
+                              </div>
+                              <div class="col-4">
+                                  <a class="trash" href="#"> <i class="fa fa-trash"></i></a>
+                                  
+                                  </span>
+                              </div>
+                            </div>
+                     
+                    </div>
+                    
+                  </div>
+          
+                </div>
+                
+              </div>
+            <div class="row">
+              <div class="col">
+                <div class="card-price">
+                  <span class="total-price">Total Price:210</b><br /></span><br />
+                    <span class="add" ><a style="color: rgb(235, 44, 19)" href="lab_list.html"> +MORE PACKAGE</a></span><br /><br /><br />
+                    <span class="add" ><a style="color: rgb(235, 44, 19)" href="#"> Book TEST</a></span>
+                </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      
+    <!--  <div class="container">
+        <div class="row">
+          <div class="col-8">
+            <div class="row">
+              <div class="col">
+                <div class="card-name">
+                  <div><a href="#">LOGIN</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>-->
+          
+      
+        
+    </section>
+  </div>
+
+
+
+
+  <!-- ======= Footer ======= -->
+<footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <img src="assets/img/logo.png" style="max-width: 50%;max-height: 50%;" alt="My Happy SVG" />
+            <p>
+              A108 Adam Street <br>
+              New York, NY 535022<br>
+              United States <br><br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Our Lab</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Contact Us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Doctors</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Blog</a></li>
+             </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Join Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Pathhologywala</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/ -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script>
+    var coll = document.getElementsByClassName("card-header");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+    var coll1 = document.getElementsByClassName("card-add");
+
+
+    for (i = 0; i < coll1.length; i++) {
+    coll1[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+        content.style.display = "none";
+    } else {
+        content.style.display = "block";
+    }
+    });
+    }
+    var coll2 = document.getElementsByClassName("card-name");
+
+    for (i = 0; i < coll1.length; i++) {
+    coll2[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+        content.style.display = "none";
+    } else {
+        content.style.display = "block";    
+    }
+    });
+    }
+    </script>
+
+
+
+</body>
+
+</html>
